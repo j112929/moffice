@@ -1,0 +1,532 @@
+
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        1
+	docNumber		|        1
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=4, name=中国移动, code=4}
+	orderTime		|        2015-08-11T09:28:00.000Z
+	deliveryTime	|        2015-08-11T09:28:00.000Z
+	shippingTime	|        2015-08-11T09:28:00.000Z
+	paymentStatus	|        PAID
+	invoicedTotal	|        2084
+	paidTotal		|        2084
+	fulfillmentMethod|        {id=9, code=SELLER_DELIVERY}
+	paymentType	|        {id=2, code=CASH_ON_DELIVERY}
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        {id=1, name=亚马逊}
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=2}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=2084, amountLocalCurrency=2084}
+	grossTotal		|        {amount=2084, amountLocalCurrency=2084}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=中央路3333好, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=   中央路3333好    }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=江东中路223号, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=   江东中路223号    }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        10.28
+	grossProfitAmount|        204
+	totalSoldAmount|        1984
+	creationTime	|        2015-08-11T09:29:42.066Z
+	updateTime		|        2015-08-11T09:35:16.161Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------
+	
+	
+	[
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        4
+	docNumber		|        23
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=16, name=1, code=20111121}
+	orderTime		|        2015-10-30T08:34:00.000Z
+	deliveryTime	|        2015-10-30T08:34:00.000Z
+	shippingTime	|        null
+	status			|        CLOSED
+	paymentStatus	|        PAID
+	invoicedTotal	|        99.2
+	paidTotal		|        99.2
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=1}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=99.2, amountLocalCurrency=99.2}
+	grossTotal		|        {amount=99.2, amountLocalCurrency=99.2}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=       }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=       }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        10.28
+	grossProfitAmount|        10.2
+	totalSoldAmount|        99.2
+	creationTime	|        2015-10-30T08:36:02.576Z
+	updateTime		|        2015-11-02T08:37:13.101Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        9
+	docNumber		|        31
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=16, name=1, code=20111121}
+	orderTime		|        2015-11-13T04:44:00.000Z
+	deliveryTime	|        2015-11-13T04:44:00.000Z
+	shippingTime	|        null
+	status			|        CLOSED
+	paymentStatus	|        PAID
+	invoicedTotal	|        1.2
+	paidTotal		|        1.2
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        null
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=1.2, amountLocalCurrency=1.2}
+	grossTotal		|        {amount=1.2, amountLocalCurrency=1.2}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        -7316.67
+	grossProfitAmount|        -87.8
+	totalSoldAmount|        1.2
+	creationTime	|        2015-11-13T04:45:07.865Z
+	updateTime		|        2015-11-23T07:55:40.172Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        27
+	docNumber		|        69
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=18, name=111, code=111}
+	orderTime		|        2016-01-12T08:02:00.000Z
+	deliveryTime	|        2016-01-12T08:02:00.000Z
+	shippingTime	|        null
+	status			|        OPEN
+	paymentStatus	|        NOT_PAID
+	invoicedTotal	|        0
+	paidTotal		|        0
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=1}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=46000, amountLocalCurrency=46000}
+	grossTotal		|        {amount=46000, amountLocalCurrency=46000}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=CN, stateCode=null, state=null, cityName=null, street1=, street2=, zipCode=null, mobile=null, telephone=null, recipientName=999, displayName=中国      999 }
+	billingAddress	|        {countryCode=CN, stateCode=null, state=null, cityName=null, street1=, street2=, zipCode=null, mobile=null, telephone=null, recipientName=999, displayName=中国      999 }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        0
+	grossProfitAmount|        0
+	totalSoldAmount|        0
+	creationTime	|        2016-01-12T08:03:33.273Z
+	updateTime		|        2016-01-28T06:40:09.819Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        5
+	docNumber		|        24
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=16, name=1, code=20111121}
+	orderTime		|        2015-11-02T07:44:00.000Z
+	deliveryTime	|        2015-11-02T07:44:00.000Z
+	shippingTime	|        null
+	status			|        CLOSED
+	paymentStatus	|        PAID
+	invoicedTotal	|        99.2
+	paidTotal		|        99.2
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=1}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=99.2, amountLocalCurrency=99.2}
+	grossTotal		|        {amount=99.2, amountLocalCurrency=99.2}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=       }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        10.28
+	grossProfitAmount|        10.2
+	totalSoldAmount|        99.2
+	creationTime	|        2015-11-02T07:45:50.365Z
+	updateTime		|        2015-11-02T08:37:13.139Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        3
+	docNumber		|        22
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=14, name=cdc, code=12}
+	orderTime		|        2015-10-14T07:33:00.000Z
+	deliveryTime	|        2015-10-14T07:33:00.000Z
+	shippingTime	|        null
+	status			|        CLOSED
+	paymentStatus	|        PAID
+	invoicedTotal	|        99.2
+	paidTotal		|        99.2
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=1}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=99.2, amountLocalCurrency=99.2}
+	grossTotal		|        {amount=99.2, amountLocalCurrency=99.2}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=       }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=       }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        10.28
+	grossProfitAmount|        10.2
+	totalSoldAmount|        99.2
+	creationTime	|        2015-10-14T07:34:50.670Z
+	updateTime		|        2015-11-02T08:37:32.805Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        6
+	docNumber		|        28
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=2, name=中国电信江苏公司, code=2}
+	orderTime		|        2015-11-04T02:14:00.000Z
+	deliveryTime	|        2015-11-04T02:14:00.000Z
+	shippingTime	|        null
+	status			|        OPEN
+	paymentStatus	|        NOT_PAID
+	invoicedTotal	|        0
+	paidTotal		|        0
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=3}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=380.2, amountLocalCurrency=380.2}
+	grossTotal		|        {amount=380.2, amountLocalCurrency=380.2}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=       }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=深圳市, street1=深圳市南山区科技园南12路, street2=null, zipCode=518057, mobile=12334433322, telephone=null, recipientName=周逸, displayName=中国 广东省 深圳市 深圳市南山区科技园南12路  (518057) 周逸 12334433322}
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        75.89
+	grossProfitAmount|        280.2
+	totalSoldAmount|        369.2
+	creationTime	|        2015-11-04T02:27:33.862Z
+	updateTime		|        2015-11-04T02:27:33.862Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        17
+	docNumber		|        45
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=16, name=1, code=20111121}
+	orderTime		|        2015-11-28T04:36:00.000Z
+	deliveryTime	|        2015-11-28T04:36:00.000Z
+	shippingTime	|        null
+	status			|        OPEN
+	paymentStatus	|        PAID
+	invoicedTotal	|        108
+	paidTotal		|        108
+	fulfillmentMethod|        {id=1, code=SELF_PICKUP}
+	paymentType	|        {id=1, code=ONLINE_PAYMENT}
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        null
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=108, amountLocalCurrency=108}
+	grossTotal		|        {amount=108, amountLocalCurrency=108}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        -7316.67
+	grossProfitAmount|        -7902
+	totalSoldAmount|        108
+	creationTime	|        2015-11-28T04:40:30.963Z
+	updateTime		|        2015-11-28T04:40:31.301Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        10
+	docNumber		|        32
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=16, name=1, code=20111121}
+	orderTime		|        2015-11-13T04:45:00.000Z
+	deliveryTime	|        2015-11-13T04:45:00.000Z
+	shippingTime	|        null
+	status			|        CLOSED
+	paymentStatus	|        PAID
+	invoicedTotal	|        1.2
+	paidTotal		|        1.2
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        null
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=1.2, amountLocalCurrency=1.2}
+	grossTotal		|        {amount=1.2, amountLocalCurrency=1.2}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        -7316.67
+	grossProfitAmount|        -87.8
+	totalSoldAmount|        1.2
+	creationTime	|        2015-11-13T04:45:57.678Z
+	updateTime		|        2015-11-23T07:55:40.208Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        1
+	docNumber		|        1
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=1}
+	customer		|        {id=4, name=中国移动, code=4}
+	orderTime		|        2015-08-11T09:28:00.000Z
+	deliveryTime	|        2015-08-11T09:28:00.000Z
+	shippingTime	|        2015-08-11T09:28:00.000Z
+	status			|        CLOSED
+	paymentStatus	|        PAID
+	invoicedTotal	|        2084
+	paidTotal		|        2084
+	fulfillmentMethod|        {id=9, code=SELLER_DELIVERY}
+	paymentType	|        {id=2, code=CASH_ON_DELIVERY}
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        {id=1, name=亚马逊}
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=2}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=2084, amountLocalCurrency=2084}
+	grossTotal		|        {amount=2084, amountLocalCurrency=2084}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=中央路3333好, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=   中央路3333好    }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=江东中路223号, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=   江东中路223号    }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        10.28
+	grossProfitAmount|        204
+	totalSoldAmount|        1984
+	creationTime	|        2015-08-11T09:29:42.066Z
+	updateTime		|        2015-08-11T09:35:16.161Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------, 
+	----------------[ Model Result ]----------------
+		    KEY		|	 VALUE
+	-----------------------------------------------------
+	customFields	|        {}
+	id			|        12
+	docNumber		|        34
+	series			|        4
+	extOrderId		|        null
+	channel		|        {id=7}
+	customer		|        {id=16, name=1, code=20111121}
+	orderTime		|        2015-11-17T06:46:00.000Z
+	deliveryTime	|        2015-11-17T06:46:00.000Z
+	shippingTime	|        null
+	status			|        OPEN
+	paymentStatus	|        NOT_PAID
+	invoicedTotal	|        0
+	paidTotal		|        0
+	fulfillmentMethod|        null
+	paymentType	|        null
+	extMerchantInfo|        null
+	deliveryTypeName|        null
+	deliveryTypeId	|        null
+	carrier		|        null
+	campaign		|        null
+	orderType		|        SALES_ORDER
+	promotion		|        null
+	salesEmployee	|        {id=3}
+	currency		|        {exchangeRate=1, code=RMB, isoCode=USD}
+	pricingMethod	|        GROSS_PRICE
+	isManualTax	|        false
+	netTotal		|        {amount=300, amountLocalCurrency=300}
+	grossTotal		|        {amount=300, amountLocalCurrency=300}
+	taxAmount		|        {amount=0, amountLocalCurrency=0}
+	discount		|        0
+	netDiscountSum	|        {amount=0, amountLocalCurrency=0}
+	grossDiscountSum|        {amount=0, amountLocalCurrency=0}
+	shippingAddress|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	billingAddress	|        {countryCode=null, stateCode=null, state=null, cityName=null, street1=null, street2=null, zipCode=null, mobile=null, telephone=null, recipientName=null, displayName=中国 广东省      }
+	processorRemark|        null
+	customerRemark	|        null
+	grossProfitMargin|        100
+	grossProfitAmount|        300
+	totalSoldAmount|        300
+	creationTime	|        2015-11-17T06:49:45.386Z
+	updateTime		|        2015-11-17T06:49:45.386Z
+	returnReason	|        null
+	paymentTerm	|        null
+	-----------------------------------------------------]
+	

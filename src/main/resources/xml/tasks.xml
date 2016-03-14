@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks>
+
+    <!-- 刷新凭证信息 -->
+    <credentials type="credential" interval="8h" initial="true">
+        <credential title="moffice(汇总账号)" id="1412040728966662-WCR9hh6JvMZjcG5bUAAe34kaIFuj8FMW"
+                    secret="khdg5kd7fhyJRFYs2BQnCO8wBhnh" refresh_token="998ef47b-d5bc-49ae-911a-a8ae5a782e75"
+                    is_master="true" access_token="?"/>
+        <!--<credential title="肯德基" id="xxx" secret="xxx" refresh_token="xx" is_master="false" access_token="?"/>-->
+        <!--<credential title="乔丹" id="xxx" secret="xxx" refresh_token="xx" is_master="false" access_token="?"/>-->
+    </credentials>
+
+    <!-- 初始化用户 -->
+    <customer type="customer" interval="1m" initial="true"/>
+
+    <!-- 监控 -->
+    <monitor type="product" interval="5s" initial="true">
+        <!-- 总数 -->
+        <count interval="1h"/>
+        <!-- 最新更新时间 -->
+        <last-update interval="30s"/>
+        <!-- 最新的一条记录编号 -->
+        <max-id interval="30s"/>
+        <!-- 全部记录主键对应关系 -->
+        <ids interval="1d"/>
+    </monitor>
+
+    <!-- 监控 -->
+    <monitor type="order" interval="5s" initial="true">
+        <!-- 总数 -->
+        <count interval="1h"/>
+        <!-- 最新更新时间 -->
+        <last-update interval="30s"/>
+        <!-- 最新的一条记录编号 -->
+        <max-id interval="30s"/>
+    </monitor>
+
+    <!-- appid,type,old_count,old_last-update,old_max-id,old_ids,mew_count,mew_last-update,mew_max-id,mew_ids -->
+
+</tasks>

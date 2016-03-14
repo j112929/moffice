@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <util:map id="taskConsumers">
+        <entry key="moffice_product">
+            <map>
+                <entry key="add"><bean class="com.plocc.moffice.service.handle.TaskProductAddConsumerHandleImpl"/></entry>
+                <entry key="drop"><bean class="com.plocc.moffice.service.handle.TaskProductDropConsumerHandleImpl"/></entry>
+                <entry key="modify"><bean class="com.plocc.moffice.service.handle.TaskProductModifyConsumerHandleImpl"/></entry>
+            </map>
+        </entry>
+        <entry key="moffice_order">
+            <map>
+                <entry key="add"><bean class="com.plocc.moffice.service.handle.TaskOrderAddConsumerHandleImpl"/></entry>
+                <entry key="modify"><bean class="com.plocc.moffice.service.handle.TaskOrderModifyConsumerHandleImpl"/></entry>
+            </map>
+        </entry>
+        <entry key="moffice_sku">
+            <map>
+                <entry key="add"><bean class="com.plocc.moffice.service.handle.TaskSKUAddConsumerHandleImpl"/></entry>
+                <entry key="drop"><bean class="com.plocc.moffice.service.handle.TaskSKUDropConsumerHandleImpl"/></entry>
+                <entry key="modify"><bean class="com.plocc.moffice.service.handle.TaskSKUModifyConsumerHandleImpl"/></entry>            </map>
+        </entry>
+    </util:map>
+
+</beans>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <!--监控任务-->
+    <bean id="MonitorTask" class="com.plocc.moffice.entity.Monitor.Task" abstract="true"/>
+
+    <!-- 生成监控任务配置 -->
+    <util:list id="monitors" scope="prototype">
+        <bean class="com.plocc.moffice.entity.Monitor" p:type="product" p:interval="5s" p:countUrl="https://api.sapanywhere.cn/v1/Products/count" p:rsUrl="https://api.sapanywhere.cn/v1/Products">
+            <property name="tasks">
+                <list>
+                    <bean parent="MonitorTask" p:type="count" p:interval="2s" p:triggerJob="drop" p:desc="处理删除产品"/>
+                    <bean parent="MonitorTask" p:type="lastUpdate" p:interval="4s" p:triggerJob="modify" p:desc="处理更新产品"/>
+                    <bean parent="MonitorTask" p:type="maxId" p:interval="6s" p:triggerJob="add" p:desc="处理新增产品"/>
+                    <bean parent="MonitorTask" p:type="ids" p:interval="5s" p:triggerJob="synchronize" p:desc="同步商品编号、比较差异、删除记录"/>
+                </list>
+            </property>
+        </bean>
+        <bean class="com.plocc.moffice.entity.Monitor" p:type="order" p:interval="5s" p:countUrl="https://api.sapanywhere.cn/v1/SalesOrders/count" p:rsUrl="https://api.sapanywhere.cn/v1/SalesOrders">
+            <property name="tasks">
+                <list>
+                    <bean parent="MonitorTask" p:type="lastUpdate" p:interval="12s" p:triggerJob="modify" p:desc="处理更新订单"/>
+                </list>
+            </property>
+        </bean>
+        <bean class="com.plocc.moffice.entity.Monitor" p:type="sku" p:interval="5s" p:rsUrl="https://api.sapanywhere.cn/v1/SKUs">
+            <property name="tasks">
+                <list>
+                    <bean parent="MonitorTask" p:type="ids" p:interval="5s" p:triggerJob="synchronize" p:desc="同步sku编号、比较差异"/>
+                </list>
+            </property>
+        </bean>
+    </util:list>
+
+    <util:map id="monitorsJobs">
+        <entry key="product">
+            <map>
+                <entry key="add"><bean class="com.plocc.moffice.service.handle.MonitorProductAddJobHandleImpl"/></entry>
+                <entry key="drop"><bean class="com.plocc.moffice.service.handle.MonitorProductDropJobHandleImpl"/></entry>
+                <entry key="modify"><bean class="com.plocc.moffice.service.handle.MonitorProductModifyJobHandleImpl"/></entry>
+                <entry key="synchronize"><bean class="com.plocc.moffice.service.handle.MonitorProductSynJobHandleImpl"/></entry>
+            </map>
+        </entry>
+        <entry key="order">
+            <map>
+                <entry key="modify"><bean class="com.plocc.moffice.service.handle.MonitorOrderModifyJobHandleImpl"/></entry>
+            </map>
+        </entry>
+        <entry key="sku">
+            <map>
+                <entry key="synchronize"><bean class="com.plocc.moffice.service.handle.MonitorSkuSynJobHandleImpl"/></entry>
+            </map>
+        </entry>
+    </util:map>
+
+</beans>
